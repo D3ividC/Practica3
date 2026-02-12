@@ -1,4 +1,34 @@
-dl{
-    color: beige;
-    background-color: darkslategray;
+body {
+    background-color: #e3cfb7; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #f0dfc9;
+    border-bottom: 3px solid black;
+    padding: 8px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(12, 108, 192);
+    font-weight: bold;
+    margin-right: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    margin-top: 25px;
+}
+ul, ol {
+    margin-left: 30px;
+}
+img {
+    margin-top: 20px;
+    width: 300px;
 }
